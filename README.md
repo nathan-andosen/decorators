@@ -1,2 +1,3 @@
-# decorators
+# Decorators
+
 Collection of useful decorators
