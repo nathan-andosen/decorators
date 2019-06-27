@@ -1,0 +1,24 @@
+{
+  "name": "@thenja/decorators",
+  "version": "1.0.0",
+  "description": "Collection of useful Typescript decorators",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "bash ./scripts/build.sh",
+    "tsc": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nathan-andosen/decorators.git"
+  },
+  "author": "Nathan Anderson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nathan-andosen/decorators/issues"
+  },
+  "homepage": "https://github.com/nathan-andosen/decorators#readme",
+  "devDependencies": {
+    "typescript": "^3.5.2"
+  }
+}

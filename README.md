@@ -1,3 +1,3 @@
 # Decorators
 
-Collection of useful decorators
+Collection of useful Typescript decorators
