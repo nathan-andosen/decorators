@@ -11,7 +11,7 @@ npm install @thenja/decorators --save
 Import the decorators you want to use:
 
 ```javascript
-import { event, EventEmitter } from '@thenja/decorators';
+import { event, CustomEventEmitter } from '@thenja/decorators';
 ```
 
 # Available Decorators
@@ -21,10 +21,10 @@ import { event, EventEmitter } from '@thenja/decorators';
 Used to dispatch custom events. Useful when creating web components.
 
 ```javascript
-import { event, EventEmitter } from '@thenja/decorators';
+import { event, CustomEventEmitter } from '@thenja/decorators';
 
 class FancyButton extends HTMLElement {
-  @event() close: EventEmitter;
+  @event() close: CustomEventEmitter;
 
   closeClickHandler() {
     this.close.emit({ customData: 'here' });

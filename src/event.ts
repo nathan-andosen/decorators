@@ -20,9 +20,9 @@ export interface IEventOptions {
  * Event emitter class to dispatch custom events
  *
  * @export
- * @class EventEmitter
+ * @class CustomEventEmitter
  */
-export class EventEmitter {
+export class CustomEventEmitter {
   private target: HTMLElement;
   private options: IEventOptions;
 
@@ -74,7 +74,7 @@ export const event = (options?: string|IEventOptions) => {
       if (!eventOptions.eventName) {
         eventOptions.eventName = camelToKebab(propertyName);
       }
-      return new EventEmitter(this, eventOptions);
+      return new CustomEventEmitter(this, eventOptions);
     }
 
     // do not use arrow function for setter, as this is the instance of the

@@ -8,9 +8,9 @@ export interface IEventOptions {
  * Event emitter class to dispatch custom events
  *
  * @export
- * @class EventEmitter
+ * @class CustomEventEmitter
  */
-export declare class EventEmitter {
+export declare class CustomEventEmitter {
     private target;
     private options;
     constructor(target: HTMLElement, options: IEventOptions);
